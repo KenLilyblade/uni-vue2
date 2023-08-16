@@ -1,0 +1,63 @@
+{
+  "easycom": {
+    "^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "aliasPath": "/index",
+      "name": "index",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/upload/upload",
+      "aliasPath": "/upload",
+      "name": "upload",
+      "style": {
+        "navigationBarTitleText": "customForm"
+      }
+    },
+    {
+      "path": "pages/customForm/index",
+      "aliasPath": "/customForm",
+      "name": "customForm",
+      "style": {
+        "navigationBarTitleText": "customForm"
+      }
+    },
+    {
+      "path": "pages/echart/echart",
+      "aliasPath": "/",
+      "name": "echart",
+      "style": {
+        "navigationBarTitleText": "echart"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "aliasPath": "/login",
+      "name": "login",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/404/404",
+      "aliasPath": "/404",
+      "name": "404",
+      "style": {
+        "navigationBarTitleText": "百事礼品兑换"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationStyle": "default",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": false
+  }
+}
